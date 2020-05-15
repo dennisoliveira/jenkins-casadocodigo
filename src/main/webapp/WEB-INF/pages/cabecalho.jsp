@@ -5,6 +5,16 @@
   <title>Minhas Moedas</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+  <style>
+  	@media (min-width: 768px) {
+		.navbar {
+    		border-radius: 0;
+		}
+  	}
+  	.navbar-inverse .navbar-brand:hover {
+    	color: #000;
+	}
+  </style>
  </head>
 <body>
     <nav class="navbar navbar-inverse">
